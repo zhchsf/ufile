@@ -14,13 +14,13 @@ import "github.com/zhchsf/ufile"
 config ufile settings:
 ```go
 ufile.SetConfig(
-  ufile.Config{
-    PublicKey:    GlobolConfig.Ufile.PublicKey,
-    PrivateKey:   GlobolConfig.Ufile.PrivateKey,
-    UserAgent:    GlobolConfig.Ufile.UserAgent,
-    ExpireSecond: GlobolConfig.Ufile.ExpireSecond,
-    UrlSuffix:    GlobolConfig.Ufile.UrlSuffix,
-  },
+    ufile.Config{
+        PublicKey:    GlobolConfig.Ufile.PublicKey,
+        PrivateKey:   GlobolConfig.Ufile.PrivateKey,
+        UserAgent:    GlobolConfig.Ufile.UserAgent,
+        ExpireSecond: GlobolConfig.Ufile.ExpireSecond,
+        UrlSuffix:    GlobolConfig.Ufile.UrlSuffix,
+    },
 )
 ```
 
